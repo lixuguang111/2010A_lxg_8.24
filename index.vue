@@ -15,6 +15,9 @@
                 </div>
             </div>
         </div>
+        <div class="swiper">
+            <img src="../assets/img/banner.jpg" alt="">
+        </div>
     </div>
 </template>
 <style lang="scss" scoped>
@@ -64,6 +67,17 @@ body {
           color: #999;
         }
       }
+    }
+  }
+  .swiper {
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
   }
 }
