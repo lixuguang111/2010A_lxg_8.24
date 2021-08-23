@@ -68,7 +68,20 @@
                 </div>
                 <p>十秒报价</p>
             </div>
-
+        </div>
+        <div class="room">
+            <div class="title">
+                <div class="tit"><p><span class="sp">|</span>全屋装修</p></div>
+                <div class="desc"><p>包设计、包主材、包水电、包施工</p></div>
+            </div>
+            <div class="des">
+                <img src="../assets/img/img1.jpg" alt="">
+            </div>
+            <div class="foot">
+                <p><i class="iconfont icon-zero"></i>增项，标准施工</p>
+                <p><i class="iconfont icon-protection-fill"></i> 杜绝项目外包</p>
+                <p><i class="iconfont icon-price"></i> 装修贷款</p>
+            </div>
         </div>
     </div>
 </template>
@@ -77,6 +90,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #ddd;
   .head {
     width: 100%;
     display: flex;
@@ -182,6 +196,55 @@ body {
           background-color: #fe8864;
       }
     }
+  }
+  .room{
+      width: 100%;
+      .title{
+          height: 50px;
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          .tit{
+              width: 30%;
+              p{
+                  font-size: 20px;
+                  .sp{
+                      color: #39c894;
+                      display: inline-block;
+                      width: 5px;
+                      height: 42px;
+                  }
+              }
+          }
+          .desc{
+              flex: 1;
+              p{
+                  color: #999999;
+                  font-size: 13px;
+                  padding-top: 15px;
+              }
+          }
+      }
+      .des{
+          width: 100%;
+          margin-top: 16px;
+          padding:0px;
+          img{
+              width: 100%;
+          }
+      }
+      .foot{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          p{
+              i{
+                  color: #39c894;
+                  font-size: 18px;
+                  margin-top: 8px;
+              }
+          }
+      }
   }
 }
 </style>
